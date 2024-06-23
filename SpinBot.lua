@@ -3,7 +3,7 @@ local humRoot = plr.Character:WaitForChild("HumanoidRootPart")
 local velocity = Instance.new("AngularVelocity")
 
 Settings = {
-    Enabled = false,
+    Enabled = true,
     speed = 50
 }
 
