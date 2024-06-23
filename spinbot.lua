@@ -15,3 +15,5 @@ if Settings.Enabled then  -- Check if Enabled property is true
     velocity.Parent = humRoot
     velocity.Name = "Spin" 
 end
+
+print("Spin Bot Module Has Been Loaded!")
