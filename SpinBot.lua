@@ -2,6 +2,11 @@ local plr = game:GetService("Players").LocalPlayer
 local humRoot = plr.Character:WaitForChild("HumanoidRootPart")
 local velocity = Instance.new("AngularVelocity")
 
+Settings = {
+    Enabled = false,
+    speed = 50
+}
+
 if Settings.Enabled then  -- Check if Enabled property is true
     plr.Character:WaitForChild("Humanoid").AutoRotate = false
     velocity.Attachment0 = humRoot:WaitForChild("RootAttachment")
